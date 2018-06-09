@@ -3,3 +3,8 @@ C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\D
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAO\obj\Debug\DAO.dll
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAO\obj\Debug\DAO.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAO\bin\Debug\DAO.dll
+C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAO\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAO\obj\Debug\DAO.dll
+C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAO\obj\Debug\DAO.pdb

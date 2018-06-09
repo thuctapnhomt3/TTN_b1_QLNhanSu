@@ -112,7 +112,23 @@ namespace GUI_NhanSu
 
         private void btTiemKiem_Click(object sender, EventArgs e)
         {
-         
+            if (txtTimKiem.Text != "")
+            {
+                btHienThi.Enabled = true;
+                if (bus_nvda.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+                {
+                    dtgvNVDA.DataSource = bus_nvda.GetDataTimKiem(txtTimKiem.Text.Trim());
+                    MessageBox.Show("Tìm thành công");
+                }
+                else
+                {
+                    Exception ex = bus_nvda.GetEx();
+                    MessageBox.Show(ex.Message);
+                    MessageBox.Show("Lỗi rồi bạn ơi !");
+                }
+            }
+            else
+                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
         }
 
         private void btHienThi_Click(object sender, EventArgs e)
