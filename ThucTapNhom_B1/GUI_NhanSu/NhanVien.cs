@@ -80,7 +80,29 @@ namespace TTN_1.GUI
         string type;
         private void btXoa_Click(object sender, EventArgs e)
         {
-
+            if (txtMaNV.Text.Length != 0)
+            {
+                string query = @"DELETE FROM dbo.NhanVien Where manv='" + txtMaNV.Text + "'";
+                if (MessageBox.Show("Phòng ban liên quan đến các bảng khác, bạn có chắc muốn xóa dữ liệu liên quan đến phòng ban ??", "Thông báo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    if (bus_nv.Xoa(txtMaNV.Text.Trim()))
+                    {
+                        FormatData();
+                        ShowData();
+                        MessageBox.Show("Xóa thành công");
+                    }
+                    else
+                    {
+                        Exception ex = bus_nv.GetEx();
+                        MessageBox.Show(ex.Message);
+                        MessageBox.Show("Lỗi");
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng chọn");
+            }
         }
         private void btThem_Click(object sender, EventArgs e)
         {
