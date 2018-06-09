@@ -1,0 +1,11 @@
+c:\users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\bin\Debug\ThucTapNhom_Bai1.exe.config
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\bin\Debug\ThucTapNhom_Bai1.exe
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\bin\Debug\ThucTapNhom_Bai1.pdb
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\obj\Debug\ThucTapNhom_Bai1.csprojResolveAssemblyReference.cache
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\obj\Debug\ThucTapNhom_Bai1.Properties.Resources.resources
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\obj\Debug\ThucTapNhom_Bai1.csproj.GenerateResource.Cache
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\obj\Debug\ThucTapNhom_Bai1.exe
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\obj\Debug\ThucTapNhom_Bai1.pdb
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\obj\Debug\ThucTapNhom_Bai1.frmLogin.resources
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\obj\Debug\ThucTapNhom_Bai1.View.frmMain.resources
+C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\ThucTapNhom_Bai1\obj\Debug\ThucTapNhom_Bai1.frmNhanSu.resources

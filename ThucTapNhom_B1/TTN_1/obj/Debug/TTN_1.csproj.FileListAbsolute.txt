@@ -1,0 +1,13 @@
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\bin\Debug\TTN_1.exe.config
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\bin\Debug\TTN_1.exe
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\bin\Debug\TTN_1.pdb
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.csprojResolveAssemblyReference.cache
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.GUI.DeAn.resources
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.frmLogin.resources
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.GUI.NhanVien.resources
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.Properties.Resources.resources
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.csproj.GenerateResource.Cache
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.exe
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.pdb
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.GUI.frmPhongBan.resources
+C:\Users\buing\onedrive\documents\visual studio 2013\Projects\ThucTapNhom_Bai1\TTN_1\obj\Debug\TTN_1.GUI.frmMain.resources
