@@ -67,6 +67,9 @@ namespace TTN_1.GUI
         string type;
         private void btThem_Click(object sender, EventArgs e)
         {
+            type = "Them";
+            EnabledData(true);
+            EnableMethod(false);
         }
 
         private void btThoat_Click(object sender, EventArgs e)
@@ -145,7 +148,28 @@ namespace TTN_1.GUI
 
         private void btOk_Click(object sender, EventArgs e)
         {
-           
+            if (type == "Them")
+            {
+                if (txtMaPhongBan.Text != "" && txtTen.Text != "" && txtMaQL.Text != "" && TxtDiaDiem.Text != "")
+                {
+                    PhongBan pb = new PhongBan(txtMaPhongBan.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), txtMaQL.Text.Trim().ToString(), TxtDiaDiem.Text.Trim().ToString());
+                    if (bus_pb.Them(pb) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        EnableMethod(true);
+                        MessageBox.Show("Thêm thành công");
+                    }
+                    else
+                    {
+                        Exception ex = bus_pb.GetEx();
+                        MessageBox.Show(ex.Message);
+                        MessageBox.Show("Có lỗi xảy ra");
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+            }
             if (type == "Sua")
             {
                 if (txtMaPhongBan.Text != "" && txtTen.Text != "" && txtMaQL.Text != "" && TxtDiaDiem.Text != "")

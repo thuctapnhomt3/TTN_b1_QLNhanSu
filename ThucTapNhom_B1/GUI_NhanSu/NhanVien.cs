@@ -84,7 +84,9 @@ namespace TTN_1.GUI
         }
         private void btThem_Click(object sender, EventArgs e)
         {
-
+            type = "Them";
+            EnabledData(true);
+            EnableMethod(false);
         }
 
         private void dtgvNhanVien_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -174,7 +176,43 @@ namespace TTN_1.GUI
 
         private void btOk_Click(object sender, EventArgs e)
         {
-
+            if (type == "Them")
+            {
+                if (txtMaNV.Text != "" && txtTen.Text != "" && cbTenPhong.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")
+                {
+                    string gioitinh = "";
+                    if (rbNam.Checked)
+                    {
+                        gioitinh = "Nam";
+                    }
+                    else if (rbNu.Checked)
+                    {
+                        gioitinh = "Nữ";
+                    }
+                    else
+                    {
+                        gioitinh = "Khác";
+                    }
+                    //cbTenPhong.SelectedItem
+                    NhanVien nv = new NhanVien(txtMaNV.Text.ToString().Trim(), txtTen.Text.ToString().Trim(), cbTenPhong.SelectedValue.ToString().Trim(), DateTime.Parse(dtNgaySinh.Text.ToString()), gioitinh, int.Parse(txtLuong.Text.ToString()), txtDiaChi.Text.ToString().Trim());
+                    //(txtMaNV.Text.ToString().Trim(), txtTen.Text.ToString().Trim(), txtMaPhong.Text.ToString().Trim(),DateTime.Parse(dtNgaySinh.Text.ToString()),gioitinh,int.Parse(txtLuong.Text.ToString()), txtDiaChi.Text.ToString().Trim());
+                    if (bus_nv.Them(nv) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        EnableMethod(true);
+                        MessageBox.Show("Thêm thành công");
+                    }
+                    else
+                    {
+                        Exception ex = bus_nv.GetEx();
+                        MessageBox.Show(ex.Message);
+                        MessageBox.Show("Có lỗi xảy ra");
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+            }
             if (type == "Sua")
             {
                 if (txtMaNV.Text != "" && txtTen.Text != "" && cbTenPhong.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")

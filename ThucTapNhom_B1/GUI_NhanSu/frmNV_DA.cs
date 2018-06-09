@@ -68,7 +68,9 @@ namespace GUI_NhanSu
         }
         private void btThem_Click(object sender, EventArgs e)
         {
-
+            type = "Them";
+            EnabledData(true);
+            EnableMethod(false);
         }
         string type;
         private void btSua_Click(object sender, EventArgs e)
@@ -150,6 +152,27 @@ namespace GUI_NhanSu
 
         private void btOk_Click(object sender, EventArgs e)
         {
+            if (type == "Them")
+            {
+                if (cbTenDA.Text != "" && cbTenNV.Text != "")
+                {
+                    NVDA nvda = new NVDA(cbTenNV.SelectedValue.ToString().Trim(), cbTenDA.SelectedValue.ToString().Trim());
+                    if (bus_nvda.Them(nvda) == true)
+                    {
+                        ShowData();
+                        EnableMethod(true);
+                        MessageBox.Show("Thêm thành công");
+                    }
+                    else
+                    {
+                        Exception ex = bus_nvda.GetEx();
+                        MessageBox.Show(ex.Message);
+                        MessageBox.Show("Có lỗi xảy ra");
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin Nhân viên - Đề án");
+            }
             if (type == "Sua")
             {
                 if (cbTenDA.Text != "" && cbTenNV.Text != "")
