@@ -5,10 +5,3 @@ C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\D
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\obj\Debug\DAL.dll
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\DAL\obj\Debug\DAL.pdb
-C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAL\bin\Debug\DAL.dll
-C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAL\bin\Debug\DAL.pdb
-C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAL\bin\Debug\DAO.dll
-C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAL\bin\Debug\DAO.pdb
-C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
-C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAL\obj\Debug\DAL.dll
-C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\DAL\obj\Debug\DAL.pdb
