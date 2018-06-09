@@ -18,3 +18,6 @@ C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\G
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmLogin.resources
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\GUI_NhanSu.frmNV_DA.resources
 C:\Users\buing\OneDrive\Documents\Visual Studio 2013\Projects\ThucTapNhom_Bai1\GUI_NhanSu\obj\Debug\TTN_1.GUI.frmNhanVien.resources
+C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\GUI_NhanSu\bin\Debug\GUI_NhanSu.exe.config
+C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\GUI_NhanSu\obj\Debug\GUI_NhanSu.exe
+C:\Users\buing\Desktop\Thực tập nhóm\TTN_b1_QLNhanSu\TTN_b1_QLNhanSu\ThucTapNhom_B1\GUI_NhanSu\obj\Debug\GUI_NhanSu.pdb

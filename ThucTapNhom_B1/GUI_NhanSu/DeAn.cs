@@ -118,7 +118,24 @@ namespace TTN_1.GUI
 
         private void btTiemKiem_Click(object sender, EventArgs e)
         {
-
+            if (txtTimKiem.Text != "")
+            {
+                btHienThi.Enabled = true;
+                if (bus_da.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+                {
+                    FormatData();
+                    dtgrDeAn.DataSource = bus_da.GetDataTimKiem(txtTimKiem.Text.Trim());
+                    MessageBox.Show("Tìm thành công");
+                }
+                else
+                {
+                    Exception ex = bus_da.GetEx();
+                    MessageBox.Show(ex.Message);
+                    MessageBox.Show("Lỗi rồi bạn ơi !");
+                }
+            }
+            else
+                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
         }
 
         private void btHienThi_Click(object sender, EventArgs e)
